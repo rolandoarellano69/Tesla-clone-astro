@@ -1,0 +1,32 @@
+---
+import TeslaIcon from './TeslaIcon.astro'
+---
+<header
+      class="py-6 px-10 flex items-center w-full fixed justify-between z-40"
+    >
+      <div class="flex flex-grow basis-0">
+        <TeslaIcon class="h-6 w-32 text-white" />
+      </div>
+      <nav>
+        <ul
+          class="flex text-sm font-semibold text-gray-100 [&>li>a]:inline-block [&>li>a]:px-4"
+        >
+          <li><a href="#">Model S</a></li>
+          <li><a href="#">Model 3</a></li>
+          <li><a href="#">Model X</a></li>
+          <li><a href="#">Model Y</a></li>
+          <li><a href="#">Powerwall</a></li>
+          <li><a href="#">Carga</a></li>
+        </ul>
+      </nav>
+
+      <nav
+        class="flex flex-grow basis-0 justify-end font-semibold text-gray-100"
+      >
+        <ul class="flex text-sm [&>li>a]:inline-block [&>li>a]:px-4">
+          <li><a href="#">Info</a></li>
+          <li><a href="#">Idioma</a></li>
+          <li><a href="#">Sesion</a></li>
+        </ul>
+      </nav>
+    </header>
